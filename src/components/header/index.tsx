@@ -24,6 +24,10 @@ const HeaderComponent = styled.div`
 
   display: flex;
   flex-direction: column;
+
+  @media (max-width:600px) {
+    height: 150px;
+  }
 `;
 
 const HeaderContents = styled.div`
@@ -52,7 +56,7 @@ const HeaderContents = styled.div`
   }
 
   .input-container {
-    width: 60%;
+    width: 100%;
 
     display: flex;
     align-items: center;
@@ -67,6 +71,14 @@ const HeaderContents = styled.div`
       border-radius: 4px;
       border: transparent;
       outline: transparent;
+    }
+  }
+  @media (max-width: 600px) {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    .text-container {
+      width: 100%;
     }
   }
 `;
