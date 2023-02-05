@@ -47,6 +47,10 @@ const Posts = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  @media (max-width:600px) {
+    width: 100%;
+  }
 `;
 
 const Post = styled.div`
@@ -74,5 +78,7 @@ const Post = styled.div`
     font-size: 18px;
     color: #646464;
   }
-
+  @media (max-width:600px) {
+    width: 90%;
+  }
 `;

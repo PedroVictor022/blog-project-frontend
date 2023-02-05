@@ -27,6 +27,7 @@ const HeaderComponent = styled.div`
 
   @media (max-width:600px) {
     height: 150px;
+    padding: 0.5rem;
   }
 `;
 
